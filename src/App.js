@@ -29,7 +29,6 @@ const App = () => {
     )
     const data = await res.json()
     setReceipes(data.hits)
-    console.log(data.hits)
   }
 
   const updateSearch = e => {
